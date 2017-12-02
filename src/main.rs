@@ -15,5 +15,8 @@ fn main() {
     let mut code = String::new();
     f.read_to_string(&mut code).expect("error reading file");
 
-    println!("{}", code);
+    match run(&code) {
+        Err(e) => println!("{}\n", e),
+        Ok(()) => ()
+    }
 }
