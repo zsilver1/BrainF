@@ -1,0 +1,6 @@
+[package]
+name = "brainf"
+version = "0.1.0"
+authors = ["Zach Silver <zsilver96@gmail.com>"]
+
+[dependencies]
